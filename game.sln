@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game.vcxproj", "{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{E30CCDE6-8190-453C-B657-02199D186391}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "catmario", "..\2020\catmario\catmario.vdproj", "{33BE678F-61BA-4A29-BC90-434660D15B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+		UnitTest|x86 = UnitTest|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Debug|x86.Build.0 = Debug|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Release|x86.ActiveCfg = Release|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Release|x86.Build.0 = Release|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Template|x86.ActiveCfg = Template|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Template|x86.Build.0 = Template|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.UnitTest|x86.ActiveCfg = UnitTest|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.UnitTest|x86.Build.0 = UnitTest|Win32
+		{E30CCDE6-8190-453C-B657-02199D186391}.Debug|x86.ActiveCfg = Debug
+		{E30CCDE6-8190-453C-B657-02199D186391}.Release|x86.ActiveCfg = Release
+		{E30CCDE6-8190-453C-B657-02199D186391}.Template|x86.ActiveCfg = Release
+		{E30CCDE6-8190-453C-B657-02199D186391}.UnitTest|x86.ActiveCfg = Release
+		{33BE678F-61BA-4A29-BC90-434660D15B71}.Debug|x86.ActiveCfg = Debug
+		{33BE678F-61BA-4A29-BC90-434660D15B71}.Release|x86.ActiveCfg = Release
+		{33BE678F-61BA-4A29-BC90-434660D15B71}.Template|x86.ActiveCfg = Release
+		{33BE678F-61BA-4A29-BC90-434660D15B71}.UnitTest|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9CDA00B-0EF4-4F6B-A612-C6463E7F5876}
+	EndGlobalSection
+EndGlobal
